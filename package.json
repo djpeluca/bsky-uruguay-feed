@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "atproto feed generator starter kit",
   "main": "index.js",
-  "repository": "git@github.com:djpeluca/uruguay-feed.git",
+  "repository": "git@github.com:djpeluca/bsky-uruguay-feed.git",
   "author": "adrian <adrian@buzon.uy>",
   "license": "MIT",
   "scripts": {
