@@ -46,6 +46,9 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
         )
       })
       .map((create) => {
+
+        console.log(`Found post by ${create.author}: ${create.record.text}`)
+        
         return {
           uri: create.uri,
           cid: create.cid,
