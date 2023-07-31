@@ -11,12 +11,12 @@ const matchText: string[] = [
   'Uruguai',
   'Uruguaya',
   'Uruguayo',
-  'Montevideo'
+  'Montevideo',
 ]
 
 const matchPatterns: RegExp[] = [
   /(^|[\s\W])Uruguay($|[\W\s])/im,
-  /(^|[\s\W])Montevideo($|[\W\s])/im
+  /(^|[\s\W])Montevideo($|[\W\s])/im,
 ]
 
 // Include Uruguayan users here to always include their posts
