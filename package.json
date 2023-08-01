@@ -1,10 +1,10 @@
 {
-  "name": "bsky-uruguay-feed",
+  "name": "feed-generator",
   "version": "1.0.0",
-  "description": "Uruguay feed, if you want to improve it, or exclude yourself please contact me ",
+  "description": "atproto feed generator starter kit",
   "main": "index.js",
-  "repository": "git@github.com:djpeluca/bsky-uruguay-feed.git",
-  "author": "adrian <adrian@buzon.uy>",
+  "repository": "git@github.com:bluesky-social/feed-generator.git",
+  "author": "dholms <dtholmgren@gmail.com>",
   "license": "MIT",
   "scripts": {
     "publishFeed": "ts-node scripts/publishFeedGen.ts",
